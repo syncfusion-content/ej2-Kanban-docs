@@ -104,7 +104,7 @@ Add the HTML div tag defined with an `id` attribute to your `index.html` file, w
 
 `[src/index.html]`
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

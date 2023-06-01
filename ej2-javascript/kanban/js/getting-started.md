@@ -128,7 +128,7 @@ Refer to the Kanban's CDN links given as follows.
 
 The following HTML code example shows the dependency of Kanban with `ej2-kanban.min.js`.
 
-```
+```html
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>
@@ -187,7 +187,7 @@ Now, you can add the Kanban control to the application. For getting started, add
 
 In this document context, we are going to use `ej2.min.js`, which includes all the Essential JS 2 components and their dependent scripts.
 
-```
+```html
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>
