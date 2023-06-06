@@ -71,7 +71,7 @@ Refer to the following location from where the Kanban's script and styles can be
 
 After copying the files, you can refer the Kanban's scripts and styles into the `index.html` file. The following HTML code example shows the dependency of Kanban.
 
-```
+```html
 
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
