@@ -23,7 +23,7 @@ Kanban columns are categorized by mapping the **key** from the datasource using 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/kanban/single-key-cs1/index.ts %}
+{% include code-snippet/kanban/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/kanban/single-key-cs1/index.html %}
@@ -43,7 +43,7 @@ Kanban columns are categorized by mapping the **key** from the datasource using 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/kanban/single-key-cs1" %}
+{% previewsample "page.domainurl/code-snippet/single-key-cs1" %}
 {% endif %}
 
 ## Multi-key mapping
@@ -203,7 +203,7 @@ In the following code, the kanban columns 'InProgress, Review' are grouped under
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/kanban/stacked-headers-cs1/index.ts %}
+{% include code-snippet/kanban/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/kanban/stacked-headers-cs1/index.html %}
