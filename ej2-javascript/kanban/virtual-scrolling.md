@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Virtual Scrolling in ##Platform_Name## Kanban control | Syncfusion
+title: Virtual scrolling in ##Platform_Name## Kanban control | Syncfusion
 description: Learn here all about Virtual Scrolling in Syncfusion ##Platform_Name## Kanban control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
-control: Virtual Scrolling 
+control: Virtual scrolling 
 publishingplatform: ##Platform_Name##
 documentation: ug
 domainurl: ##DomainURL##
