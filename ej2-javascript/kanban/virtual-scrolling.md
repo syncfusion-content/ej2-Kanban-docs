@@ -52,7 +52,7 @@ When the remote data is configured for the [`dataSource`](../api/kanban#datasour
 
 To handle Kanban virtual scrolling, the server-side code needs to handle the `Where` and `Take` queries differently using the `KanbanVirtualization` parameter. The following is the example code for handling Kanban virtualization's initial data load using the `KanbanVirtualization` parameter.
 
-```typescript
+```ts
 
 public IActionResult LoadCard([FromBody] ExtendedDataManagerRequest dm)
 {
