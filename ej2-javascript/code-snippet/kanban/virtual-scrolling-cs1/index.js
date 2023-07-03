@@ -1,3 +1,4 @@
+window.createVirtualData();
 var kanbanObj = new ej.kanban.Kanban({ 
     enableVirtualization: true, // To enable virtual scrolling feature.
     dataSource: window.kanbanVirtualData,
