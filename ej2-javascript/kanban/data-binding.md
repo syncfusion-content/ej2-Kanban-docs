@@ -11,14 +11,14 @@ domainurl: ##DomainURL##
 
 # Data binding in ##Platform_Name## Kanban control
 
-The Kanban uses `DataManager`, which supports both RESTful data service binding and JavaScript object array binding. The [`dataSource`](../api/kanban#datasource) property of Kanban can be assigned either with the instance of `DataManager` or JavaScript object array collection, as it supports the following two data binding methods:
+The Kanban uses `DataManager`, which supports both RESTful data service binding and JavaScript object array binding. The [`dataSource`](../api/kanban/#datasource) property of Kanban can be assigned either with the instance of `DataManager` or JavaScript object array collection, as it supports the following two data binding methods:
 
 * Local data
 * Remote data
 
 ## Local data
 
-To bind local JSON data to the Kanban, you can simply assign a JavaScript object array to the [`dataSource`](../api/kanban#datasource) property. The JSON object dataSource can also be provided as an instance of `DataManager` and assigned to the Kanban `dataSource` property.
+To bind local JSON data to the Kanban, you can simply assign a JavaScript object array to the [`dataSource`](../api/kanban/#datasource) property. The JSON object dataSource can also be provided as an instance of `DataManager` and assigned to the Kanban `dataSource` property.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -51,7 +51,7 @@ To bind local JSON data to the Kanban, you can simply assign a JavaScript object
 
 ## Remote data
 
-To bind remote data to kanban component, assign service data as an instance of [`DataManager`](../data) to the [`dataSource`](../api/kanban#datasource) property. To interact with remote data source,  provide the endpoint **url**.
+To bind remote data to kanban component, assign service data as an instance of [`DataManager`](../data) to the [`dataSource`](../api/kanban/#datasource) property. To interact with remote data source,  provide the endpoint **url**.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -298,7 +298,7 @@ It is possible to create your own custom adaptor by extending the built-in avail
 
 ### Sending additional parameters to the server
 
-To add a custom parameter to the data request, use the **addParams** method of **Query** class. Assign the **Query** object with additional parameters to the kanban [`query`](../api/kanban#query) property.
+To add a custom parameter to the data request, use the **addParams** method of **Query** class. Assign the **Query** object with additional parameters to the kanban [`query`](../api/kanban/#query) property.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -327,14 +327,14 @@ To add a custom parameter to the data request, use the **addParams** method of *
 {% previewsample "page.domainurl/code-snippet/kanban/additional-cs1" %}
 {% endif %}
 
-> The parameters added using the [`query`](../api/kanban#query) property will be sent along with the data request for every kanban action.
+> The parameters added using the [`query`](../api/kanban/#query) property will be sent along with the data request for every kanban action.
 
 ### Handling HTTP error
 
 During server interaction from the kanban, some server-side exceptions may occur, and you can acquire those error messages or exception details
-in client-side using the [`actionFailure`](../api/kanban#actionfailure) event.
+in client-side using the [`actionFailure`](../api/kanban/#actionfailure) event.
 
-The argument passed to the [`actionFailure`](../api/kanban#actionfailure) event contains the error details returned from the server.
+The argument passed to the [`actionFailure`](../api/kanban/#actionfailure) event contains the error details returned from the server.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -363,11 +363,11 @@ The argument passed to the [`actionFailure`](../api/kanban#actionfailure) event 
 {% previewsample "page.domainurl/code-snippet/kanban/error-cs1" %}
 {% endif %}
 
-> The [`actionFailure`](../api/kanban#actionfailure) event will be triggered not only for the server errors, but also when there is an exception while processing the kanban actions.
+> The [`actionFailure`](../api/kanban/#actionfailure) event will be triggered not only for the server errors, but also when there is an exception while processing the kanban actions.
 
 ## Loading data via ajax
 
-You can use Kanban [`dataSource`](../api/kanban#datasource) property to bind the datasource to Kanban from external ajax request. In the following code, we have fetched the datasource from the server using ajax request and provided that to the [`dataSource`](../api/kanban#datasource) property by using the **onSuccess** event of ajax.
+You can use Kanban [`dataSource`](../api/kanban/#datasource) property to bind the datasource to Kanban from external ajax request. In the following code, we have fetched the datasource from the server using ajax request and provided that to the [`dataSource`](../api/kanban/#datasource) property by using the **onSuccess** event of ajax.
 
 {% if page.publishingplatform == "typescript" %}
 
