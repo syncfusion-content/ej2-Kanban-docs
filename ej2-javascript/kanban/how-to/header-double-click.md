@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Header double click in ##Platform_Name## Kanban control
 
-You can bind the header double click event by using the [`dataBound`](../../api/kanban#dataBound) event at the initial rendering. You can get the column header text when you double click on the headers.
+You can bind the header double click event by using the [`dataBound`](../../api/kanban/#dataBound) event at the initial rendering. You can get the column header text when you double click on the headers.
 
 {% if page.publishingplatform == "typescript" %}
 
