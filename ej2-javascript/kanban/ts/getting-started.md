@@ -72,7 +72,7 @@ npm install
 
 ## Import the Syncfusion CSS styles
 
-Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusion.com/documentation/appearance/theme/), which are available in the installed packages. It's easy to adapt the Syncfusion JavaScript controls to match the style of your application by referring to one of the built-in themes.
+Kanban CSS files are available in the ej2-kanban and its sub-component package folder. This can be referenced in your application using the following code.
 
 The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
 
@@ -87,6 +87,16 @@ The quickstart application is preconfigured to use the `Material` theme in the `
 @import '../../node_modules/@syncfusion/ej2-navigations/styles/material.css';
 @import '../../node_modules/@syncfusion/ej2-popups/styles/material.css';
 @import '../../node_modules/@syncfusion/ej2-kanban/styles/material.css';
+
+{% endhighlight %}
+{% endtabs %}
+
+In case, if you want to make use of the combined CSS files of entire components, then you can avail it from the root folder of Essential JS 2 package and reference it with the following code.
+
+{% tabs %}
+{% highlight css tabtitle="style.css" %}
+
+@import '../../node_modules/@syncfusion/ej2/material.css';
 
 {% endhighlight %}
 {% endtabs %}
