@@ -346,8 +346,6 @@ The argument passed to the [`actionFailure`](../api/kanban/#actionfailure) event
 {% include code-snippet/kanban/error-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
-{% previewsample "page.domainurl/code-snippet/kanban/error-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -360,8 +358,9 @@ The argument passed to the [`actionFailure`](../api/kanban/#actionfailure) event
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/kanban/error-cs1" %}
 {% endif %}
+
+![kanban](./images/handling-http-error.png)
 
 > The [`actionFailure`](../api/kanban/#actionfailure) event will be triggered not only for the server errors, but also when there is an exception while processing the kanban actions.
 
