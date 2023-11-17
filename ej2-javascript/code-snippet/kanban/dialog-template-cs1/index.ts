@@ -58,13 +58,4 @@ let priorityData: string[] = ['Low', 'Normal', 'Critical', 'Release Breaker', 'H
             textareaObj.appendTo(args.element.querySelector('#Summary') as HTMLInputElement);
         }
     }
-    let count: number = 31;
-    document.getElementById('addNew').onclick = (e: Event): void => {
-        let curData: object = {
-            Id: 'Task ' + count, Status: 'Open', Priority: 'Normal', Assignee: 'Andrew Fuller', Estimate: 0, Tags: '', Summary: ''
-        };
-        kanbanObj.openDialog('Add', curData);
-        count++;
-    };
-
 

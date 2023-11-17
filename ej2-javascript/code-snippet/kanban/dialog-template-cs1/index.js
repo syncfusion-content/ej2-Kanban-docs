@@ -51,12 +51,3 @@ var priorityData = ['Low', 'Normal', 'Critical', 'Release Breaker', 'High'];
             textareaObj.appendTo(args.element.querySelector('#Summary'));
         }
     }
-    var count = 31;
-    document.getElementById('addNew').onclick = function () {
-        var curData = {
-            Id: 'Task ' + count, Status: 'Open', Priority: 'Normal', Assignee: 'Andrew Fuller', Estimate: 0, Tags: '', Summary: ''
-        };
-        kanbanObj.openDialog('Add', curData);
-        count++;
-    };
-
