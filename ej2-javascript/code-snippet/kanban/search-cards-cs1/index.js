@@ -24,7 +24,7 @@ document.getElementById('reset').onclick = function () {
     textObj.value = '';
     kanbanObj.query = new ej.data.Query();
 };
-document.getElementById('search').onkeyup = function (e) => {
+document.getElementById('search').onkeyup = function (e) {
     var searchValue = e.target.value;
     var searchQuery = new ej.data.Query();
     if (searchValue !== '') {
